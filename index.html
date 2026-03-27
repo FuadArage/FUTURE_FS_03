@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Brew Café | Fresh Coffee, Cozy Vibes</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons (via CDN for simplicity in static HTML) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Urban Brew<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Urban Brew Café</h1>
+            <p>Fresh Coffee, Cozy Vibes</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#contact" class="btn btn-secondary">Visit Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <p>Urban Brew Café offers freshly brewed coffee, delicious snacks, and a cozy environment perfect for relaxing or working. We believe in the power of a good cup of coffee to start your day or provide a much-needed break. Our beans are ethically sourced and roasted to perfection, ensuring every sip is a delight.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i data-lucide="coffee"></i>
+                    <h3>Fresh Ingredients</h3>
+                    <p>We use only the finest, locally sourced ingredients for our snacks and brews.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="zap"></i>
+                    <h3>Fast Service</h3>
+                    <p>Your time is valuable. We ensure quick service without compromising on quality.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="armchair"></i>
+                    <h3>Comfortable Seating</h3>
+                    <p>Relax in our cozy armchairs or find a quiet corner to get some work done.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="wifi"></i>
+                    <h3>Free WiFi</h3>
+                    <p>Stay connected while you enjoy your favorite brew with our high-speed internet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Menu</h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="menu-category">
+                <h3>Coffee</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Espresso</h4>
+                            <p>Rich and intense shot of pure coffee.</p>
+                        </div>
+                        <span class="price">$3.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Cappuccino</h4>
+                            <p>Espresso with steamed milk and a thick layer of foam.</p>
+                        </div>
+                        <span class="price">$4.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Latte</h4>
+                            <p>Espresso with plenty of steamed milk and a light touch of foam.</p>
+                        </div>
+                        <span class="price">$4.75</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h3>Snacks</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Avocado Toast</h4>
+                            <p>Smashed avocado on sourdough with chili flakes.</p>
+                        </div>
+                        <span class="price">$8.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Butter Croissant</h4>
+                            <p>Flaky, buttery, and freshly baked every morning.</p>
+                        </div>
+                        <span class="price">$3.75</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Club Sandwich</h4>
+                            <p>Triple-layered sandwich with chicken, bacon, and greens.</p>
+                        </div>
+                        <span class="price">$9.25</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gallery</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=800" alt="Café Interior" referrerPolicy="no-referrer">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=800" alt="Coffee Pour" referrerPolicy="no-referrer">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800" alt="Cozy Corner" referrerPolicy="no-referrer">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&q=80&w=800" alt="Coffee Beans" referrerPolicy="no-referrer">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559925393-8be0ec41b50d?auto=format&fit=crop&q=80&w=800" alt="Pastries" referrerPolicy="no-referrer">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&q=80&w=800" alt="Latte Art" referrerPolicy="no-referrer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i data-lucide="map-pin"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Brew Street, Coffee District, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="mail"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@urbanbrewcafe.com</p>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <!-- Placeholder for Google Maps -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.617543867613!2d-73.985428!3d40.748441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a145!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1633000000000!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Urban Brew<span>.</span></h3>
+                    <p>Your daily dose of happiness in a cup.</p>
+                    <div class="social-links">
+                        <a href="#"><i data-lucide="github"></i></a>
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                        <a href="#"><i data-lucide="instagram"></i></a>
+                        <a href="#"><i data-lucide="twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-hours">
+                    <h4>Opening Hours</h4>
+                    <ul>
+                        <li>Monday - Friday: 7:00 AM - 8:00 PM</li>
+                        <li>Saturday: 8:00 AM - 9:00 PM</li>
+                        <li>Sunday: 9:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Urban Brew Café. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
